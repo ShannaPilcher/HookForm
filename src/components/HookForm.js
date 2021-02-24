@@ -33,8 +33,7 @@ const HookForm = () => {
                     <label>Confrim Password </label>
                     <input type = "text" onChange = { (e) => setConfPswd(e.target.value) }></input>
                 </div>
-                <button type ="submit">Submit</button>
-                
+
             </form>
             <h3>Your Form Data</h3>
             <div>
